@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid;
+    padding: 10px;
+    font-size: 3rem;
+    box-shadow: 2px 2px 2px #000;
+}
+a:hover {
+    color: #0a0a23;
+    background-color: #fff;
+}
+
+body {
+    background-color: #0a0a23;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.one, .two, .three, .four {
+    margin: 25px 0;
+}
+
