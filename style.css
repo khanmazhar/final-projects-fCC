@@ -7,10 +7,7 @@
 a {
     text-decoration: none;
     color: #fff;
-    border: 2px solid;
-    padding: 10px;
-    font-size: 3rem;
-    box-shadow: 2px 2px 2px #000;
+    
 }
 a:hover {
     color: #0a0a23;
@@ -36,5 +33,6 @@ body {
 }
 .one, .two, .three, .four {
     margin: 25px 0;
+    font-size: 1.5rem;
+    text-align: center;
 }
-
